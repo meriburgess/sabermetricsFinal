@@ -1,11 +1,35 @@
 # sabermetricsFinal
 Final project for Sabermetrics CSCI 4831 Spring 2018
 
-## Finding the right files, in the right way
+Meredith Burgess
+
+## Viewing the demo
+
+Download repo and run Jupyter notebook to view interactive notebooks. There should be a link at top of page to toggle display of code cells for readability. 
+
+Necessary CSVs include allStats.csv, 2gramofevents.csv, 3gramofevents.csv, and 4gramofevents.csv
+
+See SQL query files and finalProject1.py for more details on how the scores were calculated 
+
+### For most interactive version, lookg at ROC-widgetInteract.ipynb
+
+Requires Python 3, Jupyter Notebook, numpy, pandas, matplotlib, ipywidgets, and Ipython.display 
+
+### For partially interactive version, look at ROC-inputTextInteract.ipynb
+
+Requires  Python 3, Jupyter Notebook, numpy, pandas, and matplotlib
+
+### If you do not want to run Jupyter Notebook at all
 
 see static (non-interactive) notebook page online here: 
 
 https://nbviewer.jupyter.org/github/meriburgess/sabermetricsFinal/blob/master/ROC-totallyStatic.ipynb
+
+or here 
+
+https://nbviewer.jupyter.org/github/meriburgess/sabermetricsFinal/blob/master/ROC-widgetInteract.ipynb
+
+## Video Link
 
 
 ## Write up 
@@ -24,6 +48,6 @@ ROC is most closely related to RC, or runs created. Both look at how players cre
 
 There were several things that could have been added or considered in the creation of ROC that were not. ROC could see possible improvement or change if these things were. This includes a weight based on placement of the event in the sequence. For example, an event closer to the end of the sequence might have more significance toward the run scored than one earlier on, especially in a longer sequence. In this particular scoring system, players receive a higher score for being involved in an event that is more frequent with the idea that they are contributing in a more reliable manner. However, another approach would be to attribute higher scores toward less frequent events with the idea that the players are helping to overcome the odds. Sequences of events that resulted in a run were the only thing considered. Sequences resulting in runs frequency was not compared to the same sequences not resulting in runs to see how reliable such sequences were at producing runs. Considering such a metric could give better insight to how meaningful participation in the sequence is. Finally, because we consider that order of events matters, players were double counted in sequence scores. For example, if a player performs an event at the end of a 4-gram, he gets a certain score for that. However that same event may appear earlier in another 4-gram sequence down the line. He would also receive points for that. Figuring out how to properly adjust this could help balance resulting overall scores.  
 
-	It is difficult to say just how meaningful this new statistic is, due to the constrained window of observation (2010-2013). For a more clear idea, more data could be added and more adjacent statistics compared. However, it does give some interesting insights to the commonality of sequences of events, which is certainly useful in assessing the state of games. This is ROCs biggest contribution. 
+It is difficult to say just how meaningful this new statistic is, due to the constrained window of observation (2010-2013). For a more clear idea, more data could be added and more adjacent statistics compared. However, it does give some interesting insights to the commonality of sequences of events, which is certainly useful in assessing the state of games. This is ROCs biggest contribution. 
 
 
