@@ -11,7 +11,9 @@ Necessary CSVs include allStats.csv, 2gramofevents.csv, 3gramofevents.csv, and 4
 
 See SQL query files and finalProject1.py for more details on how the scores were calculated 
 
-### For most interactive version, lookg at ROC-widgetInteract.ipynb
+
+### For most interactive version, look at ROC-widgetInteract.ipynb
+### Recommended
 
 Requires Python 3, Jupyter Notebook, numpy, pandas, matplotlib, ipywidgets, and Ipython.display 
 
@@ -31,6 +33,7 @@ https://nbviewer.jupyter.org/github/meriburgess/sabermetricsFinal/blob/master/RO
 
 ## Video Link
 
+https://youtu.be/R9vRw11Nq4M
 
 ## Write up 
 
